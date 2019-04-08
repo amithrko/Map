@@ -1,0 +1,71 @@
+body {
+  overflow: hidden;
+  
+}
+
+
+
+.venue-item{
+	
+	border-bottom: 1px solid;
+	
+}
+
+
+
+
+#side{
+	border: 1px solid;
+	
+	
+	
+	
+	
+	
+}
+
+#name{
+	
+	color: white;
+	
+}
+
+#nav{
+ 
+	padding-left: 35%;
+	color: white;
+	
+	text-align: right;
+	
+	
+}
+#map {
+  width: 100%;
+  height: calc(100vh - 60px);
+  
+  position: relative;
+  top: 55px;
+}
+
+input{
+	
+	width: 250px;
+	
+}
+
+@media screen and (max-width: 320px){
+	
+	#nav{
+		
+		padding-left: 10%;
+		
+	}
+	
+	#side{
+		
+		width: 280px;
+		
+	}
+	
+	
+}
